@@ -108,23 +108,55 @@ h1 {
 }
 
 /* Large Laptop Screens (1024px - 1440px) */
+/* Large Devices (Laptops & Desktops: 993px - 1440px) */
 @media (min-width: 993px) and (max-width: 1440px) {
   .container {
-    max-width: 600px;
-    padding: 25px;
+    max-width: 480px;
+    padding: 20px;
+    height: auto; /* reduce height from 100vh */
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    width: 50%;
   }
 
   #result {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    height: 60px;
   }
 
   .container button {
-    font-size: 1.8rem;
-    padding: 18px 0;
+    font-size: 1.6rem;
+    padding: 16px 0;
+  }
+}
+
+/* Extra Large Screens (Desktops > 1440px) */
+@media (min-width: 1441px) {
+  .container {
+    max-width: 460px;
+    padding: 18px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    width: 50%;
+  }
+
+  #result {
+    font-size: 1.6rem;
+    height: 55px;
+  }
+
+  .container button {
+    font-size: 1.4rem;
+    padding: 14px 0;
   }
 }
 
