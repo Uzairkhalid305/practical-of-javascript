@@ -80,7 +80,7 @@ h1 {
   box-shadow: 0px 0px 20px rgb(73, 180, 199);
 }
 
-/* Special Buttons */
+
 .container button:nth-child(4),
 .container button:nth-child(3) {
   background-color: orange;
